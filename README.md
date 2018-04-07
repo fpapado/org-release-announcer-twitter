@@ -53,11 +53,15 @@ This app requires these **Permissions & events** for the GitHub App:
 5) See [Probot's docs for deployment](https://probot.github.io/docs/deployment/#deploy-the-app) for deployment options. Remember to also set the Twitter environment variables (as mentioned above), in addition to the Github App ones that it specifies.
 
 ## Testing
-Currently, `robot.receive()` seems to break with our fixtures.
+Run the tests with npm:
 
-:warning: Note that this posts about the `org-release-announcer`. Refer to https://probot.github.io/docs/simulating-webhooks/ for how to generate your own fixtures, if needed.
+```sh
+npm test
+```
 
-You can verify that the robot works with a dry run (logs to console instead of posting):
+:warning: Note that this posts about the `org-release-announcer`. Refer to https://probot.github.io/docs/simulating-webhooks/ for how to generate your own fixtures, if needed. :warning:
+
+You can also simulate a release event from the fixtures. By default, it prints the announcement to the console:
 
 ```sh
 npm run dryrun:simulate:release
