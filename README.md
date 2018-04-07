@@ -68,3 +68,12 @@ If you want to verify the Twitter integration, you would have to make a post of 
 ```sh
 npm run live:simulate:release
 ```
+
+## Thanks and Inspiration
+Credits to the Glitch starter templates:
+
+For Probot:
+https://glitch.com/~probot-hello-world
+
+For Twitter:
+https://glitch.com/~twitterbot
