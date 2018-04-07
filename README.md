@@ -33,7 +33,7 @@ Self-hosting would be my recommendation; I certainly don't want access to your d
 
 1) Fork/Clone/Copy this repository:
 ```shell
-git clone https://fpapado/org-release-announcer-twitter
+git clone https://github.com/fpapado/org-release-announcer-twitter.git
 ```
 [Degit is a good tool for this](https://github.com/Rich-Harris/degit)
 
