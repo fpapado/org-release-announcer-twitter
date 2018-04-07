@@ -27,7 +27,7 @@ In this case, the announcer posts things to Twitter. It is found under `lib/twit
 The root `index.js` is a sample app that links together the Twitter announcer and the app.
 
 ## How do I run this?
-[You can find a more template-y version of this on Glitch]().
+[You can find a more template-y version of this on Glitch](https://glitch.com/~release-announcer-twitter).
 
 Self-hosting would be my recommendation; I certainly don't want access to your data, and you likely have specific requirements for how to announce things :)
 
@@ -41,7 +41,7 @@ git clone https://fpapado/org-release-announcer-twitter
 
 3) Copy `.env.example` to `.env`. Use those files as reference whenever `.env` and API Keys are mentioned in the docs below.
 
-3) See [https://botwiki.org/resource/tutorial/how-to-create-a-twitter-app/](https://probot.github.io/docs/deployment/) for how to get the keys for the Twitter App.
+3) See [https://botwiki.org/resource/tutorial/how-to-create-a-twitter-app/](https://probot.github.io/docs/deployment/) for how to create a Twitter App and get the API keys/secrets for it.
 
 4) See [Probot's docs](https://probot.github.io/docs/deployment/#create-the-github-app) about the permissions and specifics of setting up the  Github App.
 This app requires these **Permissions & events** for the GitHub App:
