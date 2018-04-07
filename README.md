@@ -36,6 +36,7 @@ Self-hosting would be my recommendation; I certainly don't want access to your d
 git clone https://fpapado/org-release-announcer-twitter
 ```
 [Degit is a good tool for this](https://github.com/Rich-Harris/degit)
+
 2) Make any customisations you want to `lib/twitterAnnouncer.js`.
 
 3) Copy `.env.example` to `.env`.
