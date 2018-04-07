@@ -3,6 +3,8 @@
 A GitHub App built with [probot](https://github.com/probot/probot) that announces releases to Twitter where it is installed.
 Built based on [org-release-announcer](https://fpapado.com/org-release-announcer).
 
+[![demo](docs/demo.png)]()
+
 ## Setup
 
 ```sh
@@ -33,6 +35,7 @@ Self-hosting would be my recommendation; I certainly don't want access to your d
 ```shell
 git clone https://fpapado/org-release-announcer-twitter
 ```
+[Degit is a good tool for this](https://github.com/Rich-Harris/degit)
 2) Make any customisations you want to `lib/twitterAnnouncer.js`.
 
 3) Copy `.env.example` to `.env`.
