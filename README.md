@@ -1,7 +1,7 @@
 # org-release-announcer-twitter
 
 A GitHub App built with [probot](https://github.com/probot/probot) that announces releases to Twitter where it is installed.
-Built based on [org-release-announcer](https://fpapado.com/org-release-announcer).
+Based based on [org-release-announcer](https://github.com/fpapado/org-release-announcer).
 
 [![demo](docs/demo.png)]()
 
