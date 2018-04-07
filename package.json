@@ -1,0 +1,28 @@
+{
+  "name": "org-release-announcer",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Fotis Papadogeorgopoulos <fotis@fpapado.com>",
+  "license": "ISC",
+  "repository": "https://github.com/fpapado/org-release-announcer.git",
+  "scripts": {
+    "dev": "nodemon --exec \"npm start\"",
+    "start": "probot run ./index.js",
+    "dryrun:simulate:release": "probot simulate release ./test/fixtures/release.published.json ./index_log.js",
+    "live:simulate:release": "probot simulate release ./test/fixtures/release.published.json ./index_log.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^6.0.0",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "nodemon": "^1.17.2",
+    "smee-client": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 8.3.0"
+  }
+}
